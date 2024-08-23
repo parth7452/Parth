@@ -2,212 +2,182 @@ body {
     font-family: 'Helvetica Neue', Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #f9f9f9;
     color: #333;
 }
 
 .container {
-    display: grid;
-    grid-template-areas:
-        "header header"
-        "sidebar main"
-        "footer footer";
-    grid-template-columns: 1fr 2fr;
-    grid-gap: 20px;
-    padding: 20px;
-    max-width: 1000px;
+    max-width: 800px;
     margin: 0 auto;
+    padding: 20px;
 }
 
 .header {
-    grid-area: header;
-    background-color: #ffffff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    text-align: center;
+    margin-bottom: 30px;
 }
 
 .header h1 {
-    margin: 0;
+    margin-bottom: 10px;
+    font-size: 28px;
+    color: #444;
+}
+
+.header .subtitle {
+    font-size: 16px;
+    color: #666;
+}
+
+.header .petition-image {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.petition-details {
+    margin-bottom: 30px;
+}
+
+.petition-details h2 {
     font-size: 24px;
     color: #444;
 }
 
-.representative-photo {
-    width: 90%;
-    height: auto;
-    margin: 20px 0;
-    border-radius: 8px;
-    object-fit: cover;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-}
-
-.movement-text {
+.petition-details p {
     font-size: 14px;
     line-height: 1.6;
     color: #555;
+}
+
+.progress-section {
+    margin-bottom: 30px;
+}
+
+.progress-bar {
+    width: 100%;
+    background-color: #e0e0e0;
+    border-radius: 25px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.progress {
+    height: 25px;
+    background-color: #4caf50;
+    border-radius: 25px;
+}
+
+.progress-section p {
     text-align: center;
-}
-
-.sidebar {
-    grid-area: sidebar;
-    background-color: #ffffff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.stats p {
-    margin: 5px 0;
     font-size: 16px;
-    font-weight: bold;
     color: #333;
-    text-align: center;
 }
 
-.actions button {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    margin: 10px 0;
-    font-size: 14px;
-    font-weight: bold;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+.sign-petition {
+    margin-bottom: 30px;
 }
 
-.join-btn {
-    background-color: #007BFF;
-    color: #fff;
-}
-
-.join-btn:hover {
-    background-color: #0056b3;
-}
-
-.donate-btn {
-    background-color: #28a745;
-    color: #fff;
-}
-
-.donate-btn:hover {
-    background-color: #218838;
-}
-
-.refer-btn {
-    background-color: #ffc107;
-    color: #fff;
-}
-
-.refer-btn:hover {
-    background-color: #e0a800;
-}
-
-.main-content {
-    grid-area: main;
-    background-color: #ffffff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-}
-
-.movement-status h2, 
-.comments-section h3, 
-.advocate-section h3, 
-.lobbyist-section h3, 
-.gallery-section h3 {
-    margin-top: 0;
+.sign-petition h2 {
+    font-size: 24px;
     color: #444;
-}
-
-.status-image {
-    width: 100%;
-    height: auto;
-    margin-top: 10px;
-    border-radius: 8px;
-    object-fit: cover;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-}
-
-.comment {
-    display: flex;
-    align-items: flex-start;
-    margin-top: 10px;
-}
-
-.comment-profile {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    margin-right: 10px;
-    object-fit: cover;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-}
-
-.comment-text p {
-    margin: 0;
-    font-size: 12px;
-    color: #555;
-}
-
-.advocate-section, 
-.lobbyist-section, 
-.gallery-section {
-    margin-top: 20px;
-}
-
-.gallery-images {
-    display: flex;
-    gap: 8px;
-}
-
-.gallery-images img {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-    object-fit: cover;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-}
-
-.footer {
-    grid-area: footer;
-    background-color: #ffffff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.footer h4 {
-    margin-top: 0;
-    color: #444;
-}
-
-.footer button {
-    padding: 10px 20px;
-    background-color: #dc3545;
-    color: #fff;
-    font-size: 14px;
-    font-weight: bold;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
     margin-bottom: 20px;
 }
 
-.footer button:hover {
-    background-color: #c82333;
+.sign-petition form {
+    display: flex;
+    flex-direction: column;
 }
 
+.sign-petition input {
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.sign-petition button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #e41f35;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.sign-petition button:hover {
+    background-color: #d0172c;
+}
+
+.comments-section {
+    margin-bottom: 30px;
+}
+
+.comments-section h2 {
+    font-size: 24px;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+.comments-section .comment {
+    background-color: #f1f1f1;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.comments-section .comment p {
+    margin: 0;
+    font-size: 14px;
+    color: #555;
+}
+
+.social-sharing {
+    text-align: center;
+}
+
+.social-sharing h2 {
+    font-size: 24px;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+.social-sharing button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.social-sharing .facebook-btn {
+    background-color: #3b5998;
+    color: #fff;
+}
+
+.social-sharing .facebook-btn:hover {
+    background-color: #2d4373;
+}
+
+.social-sharing .twitter-btn {
+    background-color: #1da1f2;
+    color: #fff;
+}
+
+.social-sharing .twitter-btn:hover {
+    background-color: #0a85d9;
+}
+
+.social-sharing .email-btn {
+    background-color: #d44638;
+    color: #fff;
+}
+
+.social-sharing .email-btn:hover {
+    background-color: #b23125;
+}
