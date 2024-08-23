@@ -1,0 +1,200 @@
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.container {
+    display: grid;
+    grid-template-areas:
+        "header header"
+        "sidebar main"
+        "footer footer";
+    grid-template-columns: 1fr 3fr;
+    grid-gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    grid-area: header;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 28px;
+    color: #444;
+}
+
+.representative-photo {
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+    border-radius: 8px;
+    object-fit: cover;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.movement-text {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #555;
+}
+
+.sidebar {
+    grid-area: sidebar;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.stats p {
+    margin: 0 0 10px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.actions button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin: 15px 0;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.join-btn {
+    background-color: #007BFF;
+    color: #fff;
+}
+
+.join-btn:hover {
+    background-color: #0056b3;
+}
+
+.donate-btn {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.donate-btn:hover {
+    background-color: #218838;
+}
+
+.refer-btn {
+    background-color: #ffc107;
+    color: #fff;
+}
+
+.refer-btn:hover {
+    background-color: #e0a800;
+}
+
+.main-content {
+    grid-area: main;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.movement-status h2, 
+.comments-section h3, 
+.advocate-section h3, 
+.lobbyist-section h3, 
+.gallery-section h3 {
+    margin-top: 0;
+    color: #444;
+}
+
+.status-image {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 8px;
+    object-fit: cover;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.comment {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 15px;
+}
+
+.comment-profile {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+    object-fit: cover;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.comment-text p {
+    margin: 0;
+    font-size: 14px;
+    color: #555;
+}
+
+.advocate-section, 
+.lobbyist-section, 
+.gallery-section {
+    margin-top: 25px;
+}
+
+.gallery-images {
+    display: flex;
+    gap: 10px;
+}
+
+.gallery-images img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+    grid-area: footer;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.footer h4 {
+    margin-top: 0;
+    color: #444;
+}
+
+.footer button {
+    padding: 12px 20px;
+    background-color: #17a2b8;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.footer button:hover {
+    background-color: #138496;
+}
