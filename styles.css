@@ -7,7 +7,7 @@ body {
 }
 
 .container {
-    max-width: 800px;
+    max-width: 900px;
     margin: 0 auto;
     padding: 20px;
 }
@@ -18,14 +18,8 @@ body {
 }
 
 .header h1 {
-    margin-bottom: 10px;
-    font-size: 28px;
+    font-size: 32px;
     color: #444;
-}
-
-.header .subtitle {
-    font-size: 16px;
-    color: #666;
 }
 
 .header .petition-image {
@@ -36,19 +30,11 @@ body {
     object-fit: cover;
 }
 
-.petition-details {
-    margin-bottom: 30px;
-}
-
-.petition-details h2 {
-    font-size: 24px;
-    color: #444;
-}
-
 .petition-details p {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.6;
     color: #555;
+    margin-bottom: 30px;
 }
 
 .progress-section {
@@ -112,6 +98,93 @@ body {
     background-color: #d0172c;
 }
 
+.donate-section {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.donate-section h2 {
+    font-size: 24px;
+    color: #444;
+}
+
+.donate-section p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.donate-section .donate-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #f57c00;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.donate-section .donate-btn:hover {
+    background-color: #e65100;
+}
+
+.advocacy-section {
+    margin-bottom: 30px;
+}
+
+.advocacy-section h2 {
+    font-size: 24px;
+    color: #444;
+}
+
+.advocacy-section .advocacy-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.advocacy-section .advocacy-details p {
+    font-size: 16px;
+    color: #555;
+}
+
+.advocacy-section .brief-image {
+    width: 45%;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.key-members {
+    margin-bottom: 30px;
+}
+
+.key-members h2 {
+    font-size: 24px;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+.key-members .main-group {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.key-members .active-member-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #e41f35;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.key-members .active-member-btn:hover {
+    background-color: #d0172c;
+}
+
 .comments-section {
     margin-bottom: 30px;
 }
@@ -135,49 +208,22 @@ body {
     color: #555;
 }
 
-.social-sharing {
-    text-align: center;
+.advocate-section {
+    margin-bottom: 30px;
 }
 
-.social-sharing h2 {
+.advocate-section h2 {
     font-size: 24px;
     color: #444;
     margin-bottom: 20px;
 }
 
-.social-sharing button {
+.advocate-section .advocate-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.advocate-section .advocate-btn {
     padding: 10px 20px;
-    margin: 5px;
-    font-size: 14px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-.social-sharing .facebook-btn {
-    background-color: #3b5998;
-    color: #fff;
-}
-
-.social-sharing .facebook-btn:hover {
-    background-color: #2d4373;
-}
-
-.social-sharing .twitter-btn {
-    background-color: #1da1f2;
-    color: #fff;
-}
-
-.social-sharing .twitter-btn:hover {
-    background-color: #0a85d9;
-}
-
-.social-sharing .email-btn {
-    background-color: #d44638;
-    color: #fff;
-}
-
-.social-sharing .email-btn:hover {
-    background-color: #b23125;
-}
+    font
