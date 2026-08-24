@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": {
+    "job-apply": {
+      "source": "mattforni/homebase",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/job-apply/SKILL.md",
+      "computedHash": "080d6c69c6e27e167d95c875806c7de261b5e61e5d5156c96cc77ddcce3fdc6b"
+    }
+  }
+}
