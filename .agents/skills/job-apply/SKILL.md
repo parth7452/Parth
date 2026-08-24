@@ -1,11 +1,11 @@
 ---
 name: job-apply
-description: Analyze job roles for fit, draft application question responses, find hiring managers, and create follow-up emails for RYLLC job applications. Focuses on climate tech IC product/SRE roles.
+description: Analyze finance job/internship postings for fit, draft application question responses, find recruiters and bankers, and create networking/follow-up emails for investment banking, private equity, and public markets roles.
 ---
 
 # Job Apply Skill
 
-**Purpose:** Streamline job application process by analyzing role fit, drafting responses to application questions, identifying hiring managers, and creating follow-up outreach emails.
+**Purpose:** Streamline the finance recruiting process by analyzing role fit, drafting responses to application questions, identifying recruiters or deal-team contacts, and creating networking outreach emails.
 
 ## Core Workflow
 
@@ -13,84 +13,84 @@ description: Analyze job roles for fit, draft application question responses, fi
 2. **Assess role fit** against candidate profile
 3. **Draft cover letter** tailored to the role
 4. **Draft responses** to application questions
-5. **Find hiring manager** via LinkedIn/web search
-6. **Generate follow-up email** using job posting outreach template
-7. **Create Gmail draft** with labels: `Craft` and `RYLLC`
+5. **Find a recruiter or deal-team contact** via LinkedIn/web search
+6. **Generate a networking/follow-up email**
+7. **Create Gmail draft** with label: `Job Search`
 
 ## Candidate Profile
 
 ### Background
 
-- **6 years as CTO and co-founder of Gremlin** (chaos engineering pioneer)
-- **Head of Engineering at QuitCarbon** (climate tech)
-- **Technical expertise:** Distributed systems, reliability/resilience, scaling infrastructure, technical debt resolution
-- **Product sense:** Strong product intuition, enjoys building products
-- **Barbell CTO:** Deep technical work (architecture, code reviews, system design) + high-level strategy (roadmap, team structure, hiring)
+- **The University of Texas at Austin** — BBA, Finance (GPA 3.90), Minor in Philosophy, Politics, and Economics; Class of 2026
+- **Investment Banking Summer Analyst, Rothschild & Co** — built M&A, carve-out, and financing materials; trading comps, precedent transactions, and lender outreach support
+- **Private Equity Summer Analyst, Crestview Partners** — upper-middle-market buyout/growth diligence across media, industrials, and financial services
+- **Private Equity Summer Analyst, Melange Capital Partners** — secondaries diligence and closed LP-led transactions in energy and infrastructure
+- **Winter Academy Analyst, Point72** — public equities investment thesis construction and pitch presentation
+- **Texas Undergraduate Investment Team, Mentor** — long/short public equities portfolio ($60k+), company evaluation and pitching
+- **Sales Development Representative, Motive Technologies** — high-volume outbound, pipeline building, cold outreach (useful muscle for recruiting-style networking)
+- **Core strengths:** financial modeling and comps, M&A/LBO analysis, diligence memos, client-ready materials, cold outreach and relationship building
 
 ### Role Preferences (Priority Order)
 
-1. **Staff/Principal Product Engineering (IC)** - Full-stack or backend product work at climate tech companies (FIRST CHOICE)
-2. **Staff/Principal SRE** - Reliability work (bread and butter, but not primary preference)
-3. **Fractional CTO / Staff Augmentation** - Consulting work (feels like management, less desirable than IC)
+1. **Full-time Investment Banking Analyst** (M&A, industry coverage, or leveraged finance) — direct extension of Rothschild experience (FIRST CHOICE)
+2. **Private Equity Analyst** — middle-market/upper-middle-market buyout or growth funds, leveraging Crestview/Melange diligence experience
+3. **Public markets / long-short equity research** — leveraging Point72 and TUIT experience
+
+*(Adjust this ranking freely as recruiting priorities shift — this is a starting point, not a fixed rule.)*
 
 ### Key Fit Indicators
 
 **Strong Fit:**
 
-- Climate tech or sustainability mission
-- Staff+ IC engineering role (product or SRE)
-- Distributed systems, infrastructure scaling, reliability challenges
-- Technical leadership without direct management
-- Remote flexibility
-- Startup/scale-up stage (growth challenges)
+- Bulge bracket, elite boutique, or well-regarded middle-market bank/fund
+- Structured analyst program with formal training and mentorship
+- Deal exposure: M&A, LBO, financing, or public markets research
+- NYC, Austin/Texas, or another major finance hub
+- Clear path to promotion (Analyst → Associate)
 
 **Medium Fit:**
 
-- Adjacent to climate (energy, manufacturing efficiency, supply chain optimization)
-- Senior engineer role with clear path to Staff+
-- Hybrid remote (some travel acceptable)
-- Some technical leadership responsibilities
+- Corporate development, growth equity, credit/leveraged finance, or smaller boutique advisory
+- Less-established program structure but strong deal flow or brand
+- Secondary financial hub city
 
 **Weak Fit:**
 
-- Non-climate tech mission
-- Heavy management responsibilities
-- Early stage startup (pre-product-market fit)
-- Full on-site requirement
-- Junior/mid-level scope
+- No analytical/modeling component (pure sales, ops, or generalist rotational roles)
+- Unstructured or ambiguous role scope
+- No credible deal or portfolio exposure
 
 ## Role Fit Assessment
 
 Evaluate each role on these dimensions:
 
-### Mission Alignment (0-10)
+### Function/Industry Alignment (0-10)
 
-- Direct climate impact: 10
-- Energy/sustainability adjacent: 7-8
-- Efficiency/optimization with indirect climate benefit: 5-6
-- No climate connection: 0-3
+- Core M&A, LBO, or public markets investing: 9-10
+- Adjacent (corporate development, credit, growth equity): 6-8
+- Finance-adjacent but not deal-focused (FP&A, treasury): 3-5
+- Unrelated to finance: 0-2
 
-### Technical Fit (0-10)
+### Technical/Analytical Fit (0-10)
 
-- Distributed systems/infrastructure/reliability: 9-10
-- Backend product engineering: 8-9
-- Full-stack product engineering: 7-8
-- Frontend-heavy: 4-5
-- Non-technical: 0-2
+- Heavy modeling, comps, diligence work: 9-10
+- Client materials with some analytical work: 7-8
+- Mostly relationship/sales-driven: 4-6
+- No analytical component: 0-3
 
-### Role Level (0-10)
+### Firm Prestige & Program Structure (0-10)
 
-- Staff+ IC: 10
-- Senior with leadership: 7-8
-- Senior IC only: 5-6
-- Mid-level: 0-3
+- Bulge bracket/elite boutique or top-tier fund with structured analyst program: 9-10
+- Respected middle-market firm: 6-8
+- Smaller/less established shop: 3-5
+- Unclear reputation or structure: 0-2
 
-### Work Style (0-10)
+### Location/Logistics (0-10)
 
-- Fully remote: 10
-- Hybrid (1-2 days/week): 7-8
-- Hybrid (3+ days/week): 4-5
-- Full on-site: 0-2
+- NYC or preferred hub, full-time in office (standard for IB/PE): 10
+- Other major finance city (Austin, Dallas, Chicago, SF): 7-9
+- Secondary market: 4-6
+- Remote-only or logistically difficult: 0-3
 
 ### Overall Fit Calculation
 
@@ -102,249 +102,242 @@ Evaluate each role on these dimensions:
 
 Common questions and approach:
 
-### "Why do you want to work here?"
+### "Why investment banking / private equity / this firm?"
 
 **Structure:**
 
-1. **Mission resonance** (1-2 sentences) - Connect personal values to company mission
-2. **Technical excitement** (1-2 sentences) - Specific interest in their technical challenges
-3. **Experience alignment** (1-2 sentences) - How your background uniquely positions you to contribute
+1. **Genuine interest** (1-2 sentences) — Why this function draws you in, grounded in real experience
+2. **Firm-specific fit** (1-2 sentences) — Something concrete about the firm's deal focus, culture, or reputation
+3. **Experience alignment** (1-2 sentences) — How Rothschild/Crestview/Melange/Point72 experience prepared you
 
-**Tone:** Genuine, specific, technical. Avoid generic statements.
-
-**Example for climate tech:**
-> "I'm deeply committed to working on climate solutions, and [Company]'s approach to [specific problem] resonates with me. At QuitCarbon, I saw firsthand how technical execution can accelerate decarbonization. I'm particularly excited about [specific technical challenge from job posting] because at Gremlin, we wrestled with similar distributed systems challenges around [relevant experience]. I believe my experience scaling [relevant system] could help [Company] achieve [specific goal from their mission]."
-
-### "Tell us about an achievement you are proud of"
-
-**Structure:**
-
-1. **Context** (1 sentence) - What was the situation/challenge?
-2. **Action** (2-3 sentences) - What did you do? Focus on technical approach and leadership
-3. **Impact** (1-2 sentences) - What was the result? Technical and business impact
-
-**Tone:** Concrete, technical, impact-focused. No bragging about metrics unless specifically asked.
+**Tone:** Direct, specific, grounded in real deal experience. Avoid generic "I'm passionate about finance" statements.
 
 **Example:**
-> "At Gremlin, we faced a critical challenge: how do you quantify the value of failures that didn't happen? I led the architecture of our reliability scoring system, designing a distributed event processing pipeline that correlated chaos experiments with production incidents. This required building consensus across engineering and product on what 'resilience' meant quantitatively. The system became core to our product value proposition and enabled customers to demonstrate ROI to their executives. I'm proud of both the technical architecture and the cross-functional collaboration required to ship it."
+> "My interest in [banking/investing] comes from the deal work itself — at Rothschild, I helped build the carve-out narrative for a sponsor-backed diagnostics segment, and I found the process of turning messy diligence findings into a clear, defensible story genuinely engaging. [Firm]'s focus on [specific sector/strategy] stood out to me because [specific reason]. I think my experience across sell-side advisory at Rothschild and buy-side diligence at Crestview and Melange gives me a useful two-sided view of how deals actually get done."
 
-### "What are your salary expectations?"
+### "Walk me through your resume"
+
+**Structure:** Chronological, 60-90 seconds, ending with why you're recruiting now.
+
+1. Start with school/major and what drew you to finance early on (TUIT, IBA)
+2. Walk through Melange → Point72 → Crestview → Rothschild, one sentence each on what you did and what you took from it
+3. Close with what you're looking for now and why this role/firm fits
+
+### "Tell us about a deal or achievement you are proud of"
+
+**Structure:**
+
+1. **Context** (1 sentence) — What was the situation/mandate?
+2. **Action** (2-3 sentences) — What did you specifically do? Focus on analytical rigor and initiative
+3. **Impact** (1-2 sentences) — What was the outcome or what did the team/client take away?
+
+**Tone:** Concrete, specific, no overreach on your role's scope as a summer analyst.
+
+**Example (Rothschild):**
+> "On Project Seahorse, we were advising a sponsor-backed medical device coatings manufacturer on carving out its in-vitro diagnostics segment. I built the trading comps and precedent transaction analysis that framed the valuation range for the segment, pulling together management commentary and industry research into a coherent narrative the deal team could use with the sponsor. It was my first real exposure to how a carve-out story gets built from scattered inputs into something a client can act on."
+
+**Example (Crestview):**
+> "On a potential disaggregation of a PET strapping and recycling business, I built out the deck framing the commoditization pressure in strapping against the tailwinds in recycling, and developed trading comps to quantify the re-rating opportunity if the businesses were split. I also ran expert calls with operators to pressure-test the recycling moat and understand resin price exposure — it taught me how much of diligence is about stress-testing your own thesis, not just confirming it."
+
+### "What are your compensation expectations?"
 
 **Approach:**
 
-- For IC roles: Research market rate for Staff+ in that geo/industry
-- Climate tech typically pays 10-20% below big tech
-- Be flexible but know your floor
-- Standard range: $180K-$220K base for Staff Engineer at climate tech companies
+- Entry-level IB/PE analyst compensation is largely standardized by firm and market — there's usually little room to negotiate base/bonus at the analyst level
+- Check current market rates (Wall Street Oasis, Glassdoor, Wall Street Prep) before any conversation rather than relying on stale numbers
+- Signal flexibility and that comp isn't the deciding factor — fit and platform are
 
 **Example response:**
-> "I'm targeting $[X]-$[Y] base salary, which I believe aligns with market rates for Staff+ engineers in climate tech. I'm flexible on the exact number depending on equity, benefits, and the overall compensation package. Most important to me is working on meaningful climate solutions with a strong technical team."
+> "I understand compensation for analyst roles is fairly standardized across the Street, so I'd expect to be in line with market for [role/firm tier]. What matters most to me is the deal exposure and the team I'd be working with."
 
 ### Other common questions
 
-- **"What are you looking for in your next role?"** - IC technical work, climate mission, distributed systems challenges, remote flexibility
-- **"Describe a technical challenge you solved"** - Use Gremlin or QuitCarbon examples, focus on distributed systems/reliability/scaling
-- **"How do you approach technical leadership?"** - Barbell approach: deep technical work + strategic direction, not middle management
+- **"What are you looking for in your next role?"** — Deal exposure, strong analytical training, a team that invests in developing junior talent
+- **"Describe a time you had to learn something quickly under pressure"** — Use Rothschild lender outreach or Point72 case study prep as examples
+- **"How do you handle high-volume, detail-heavy work?"** — Draw on Motive Technologies outbound experience and Rothschild diligence support
 
 ## Cover Letter Guidelines
 
-**Purpose:** Every job application should include a tailored cover letter that demonstrates genuine interest and technical fit.
+**Purpose:** Every application should include a tailored cover letter that demonstrates genuine interest and technical fit.
 
 **Length:** 250-350 words (3-4 paragraphs)
 
-**Tone:** Professional but conversational, specific to the role and company, shows research and genuine interest
+**Tone:** Professional, specific to the firm and role, shows you understand what the team actually does
 
 ### Structure
 
-**Paragraph 1: Opening and Mission Alignment (2-3 sentences)**
+**Paragraph 1: Opening and Interest (2-3 sentences)**
 
-- Express enthusiasm for the specific role and company
-- Connect to their mission or technical challenge
-- Show you understand what they do
+- Express interest in the specific role and firm
+- Reference something specific about their deal focus, sector, or strategy
+- Show you've done real research, not a form-letter opener
 
-**Paragraph 2: Technical Fit and Relevant Experience (3-4 sentences)**
+**Paragraph 2: Relevant Experience (3-4 sentences)**
 
-- Highlight most relevant experience from Gremlin/QuitCarbon
-- Connect your expertise to their specific technical needs from job posting
-- Demonstrate understanding of their technical challenges
-- Use concrete examples without bragging about metrics
+- Highlight the most relevant experience from Rothschild, Crestview, Melange, or Point72
+- Connect it directly to what the role requires
+- Use one concrete example, not a list of bullet points restated
 
 **Paragraph 3: Why This Role/Why Now (2-3 sentences)**
 
-- Explain what you're looking for in your next role
-- Connect it to what makes this opportunity unique
-- Show alignment between your goals and their needs
+- Explain what you're looking for as you head into full-time recruiting
+- Connect it to why this specific opportunity fits
 
 **Paragraph 4: Closing (1-2 sentences)**
 
-- Express eagerness to discuss further
-- Thank them for consideration
-- Keep it warm and professional
+- Express interest in discussing further
+- Thank them for their consideration
 
 ### Example Template
 
 ```text
-I'm writing to express my strong interest in the [Job Title] position at [Company]. [Specific aspect of their mission/technology] resonates deeply with my commitment to [relevant value/goal], and I'm excited about the opportunity to contribute to [specific company goal or technical challenge].
+I'm writing to express my interest in the [Role Title] position at [Firm]. [Specific aspect of their deal focus/sector/strategy] stood out to me, and I'd welcome the opportunity to contribute to [specific team or mandate type].
 
-I spent six years as CTO and co-founder of Gremlin, where I [relevant technical achievement tied to their needs]. Before that, I [relevant prior experience]. At QuitCarbon, I served as Head of Engineering and saw firsthand how [relevant insight about climate tech/their domain]. I'm particularly drawn to [specific technical challenge from posting] because [connection to your experience], and I believe my background in [relevant expertise] would enable me to [specific contribution to their goals].
+As a Summer Analyst at Rothschild & Co, I supported M&A and financing engagements, including [specific project detail relevant to the role]. Prior to that, I completed private equity diligence at Crestview Partners and Melange Capital Partners, evaluating buyout and secondary opportunities across [relevant sectors], and spent a winter with Point72's Academy building and defending a public markets investment thesis. This mix of sell-side and buy-side experience has given me a grounded sense of how deals get built and evaluated from both sides of the table.
 
-I'm looking for Staff+ IC engineering work where I can focus on deep technical challenges in [relevant domain] while contributing to climate solutions. [Company's] approach to [specific aspect of their work] represents exactly the kind of meaningful technical problem I want to spend my time on. The opportunity to [specific aspect from job posting] while [another specific aspect] aligns perfectly with how I work best.
+I'm looking for a full-time analyst role where I can keep developing that skill set on [specific type of deal work] alongside a team that invests in training its analysts. [Firm]'s [specific detail about culture, deal flow, or reputation] is exactly the kind of environment I want to be in.
 
-I'd welcome the opportunity to discuss how my experience in [relevant areas] could help [Company] [specific goal]. Thank you for considering my application.
+I'd welcome the chance to discuss how my experience could contribute to the team. Thank you for considering my application.
 
 Best regards,
-Matthew Fornaciari
+Parth Pahuja
 ```
 
 ### Key Principles
 
-- **Be specific:** Reference actual details from the job posting and company
-- **Show research:** Demonstrate you understand their product, mission, and technical challenges
+- **Be specific:** Reference actual details about the firm's deals, sectors, or strategy
+- **Show research:** Demonstrate you understand what the group actually works on
 - **Connect dots:** Explicitly link your experience to their needs
-- **No generic statements:** Every sentence should be unique to this company/role
-- **Technical credibility:** Show you understand their stack and challenges
-- **Mission alignment:** Especially important for climate tech roles
-- **No bragging:** Focus on experience and fit, not metrics or accomplishments
+- **No generic statements:** Every sentence should be unique to this firm/role
+- **No overreach:** Describe your actual scope as a summer analyst accurately
 
 ### What to Avoid
 
 - Generic opening: "I am writing to apply for..."
-- Listing resume bullet points
-- Mentioning multiple companies or roles in comparison
-- Overly formal language or business jargon
-- Metrics bragging ($10M ARR, 100+ customers, etc.)
-- Spelling the company name wrong
+- Listing resume bullet points verbatim
+- Comparing multiple firms in the same letter
+- Overly formal language or finance jargon for its own sake
+- Overstating your role or deal impact
+- Getting the firm name or group wrong
 - Forgetting to customize template placeholders
 
-## Finding Hiring Managers
+## Finding Recruiters and Deal-Team Contacts
 
 ### Search Strategy
 
 **Priority 1: LinkedIn Search**
 
 ```text
-[Company Name] (Director of Engineering OR VP Engineering OR Head of Engineering OR CTO OR Engineering Manager)
+[Firm Name] (Campus Recruiting OR University Recruiting OR HR Recruiter OR Recruiting Coordinator)
 ```
 
-Filter by:
+For a warmer connection, also search:
 
-- Current company match
-- Engineering/Product department
-- Seniority level
+```text
+[Firm Name] Analyst OR Associate "University of Texas"
+```
 
-#### Priority 2: Job Posting Analysis
+**Priority 2: Firm's Campus Recruiting Page**
 
-- Look for "Reports to:" section
-- Check posting author/recruiter connections
-- Search company engineering blog for author names
+- Most banks and funds list a dedicated campus recruiting contact or portal
+- Check for a specific contact tied to UT Austin/McCombs on-campus recruiting
 
-#### Priority 3: Company Website/About Page
+**Priority 3: UT Austin/McCombs Resources**
 
-- Look for engineering leadership team
-- Check "Team" or "About" pages
-- LinkedIn cross-reference
+- McCombs career services and finance-focused clubs (IBA, TUIT, Wall Street for McCombs) often maintain firm-specific alumni contacts
+- Reach out to alumni already at the firm for informational conversations before applying
 
-#### Priority 4: GitHub/Technical Community
+**Priority 4: Job Posting/Recruiter Outreach**
 
-- Search company GitHub org for active contributors
-- Look for engineering managers in commit history
-- Cross-reference with LinkedIn
+- Check for a named recruiter or point of contact on the posting itself
+- LinkedIn Jobs often lists the poster directly
 
-### Sizing Guidelines
+### Contact-Type Guidance by Firm Type
 
-**Startup (< 50 people):**
+**Bulge Bracket / Large Fund:**
 
-- Likely: CTO or co-founder
-- Sometimes: Head of Engineering
+- Start with the dedicated campus recruiting team or HR contact
+- Junior bankers/associates are good for informational chats but rarely make hiring decisions directly
 
-**Scale-up (50-200 people):**
+**Elite Boutique / Middle-Market Bank:**
 
-- Likely: VP Engineering or Head of Engineering
-- Sometimes: Director of Engineering (if specific team)
+- Often a smaller recruiting team; a direct, well-researched note to a VP or Director can work
+- Group-specific recruiting coordinators are common — target the right industry/product group
 
-**Growth Stage (200-500 people):**
+**Private Equity Fund:**
 
-- Likely: Director of Engineering
-- Sometimes: VP Engineering (if senior role)
+- Smaller funds may not have dedicated recruiting staff — reach out to a junior Associate or Senior Associate for an informational conversation
+- Larger funds often use campus recruiting liaisons or third-party recruiters (search firm names in the posting)
 
-**Large Company (500+ people):**
-
-- Likely: Director or Senior Engineering Manager
-- Sometimes: VP (if very senior role)
-
-## Follow-Up Email Generation
-
-Use template: `~/Craft/vocation/templates/07-job-posting-cold-outreach.md`
+## Networking / Follow-Up Email Generation
 
 ### Key Elements
 
-1. **Subject line:** Title Case, reference role
-2. **Reference job posting** with hyperlink to posting
-3. **Forward request** to right person (polite)
-4. **Brief credentials** showing technical fit (1-2 sentences)
-5. **Specific interest** in their tech/mission (1-2 sentences)
-6. **Fractional alternative pitch** - "rather than (or alongside) a full-time hire"
-7. **Low-pressure close** with scheduling link
-8. **Word count:** ~150-170 words
+1. **Subject line:** Title Case, reference the role or firm
+2. **Reference the posting or connection** (mutual contact, alumni network, event)
+3. **Brief credentials** showing relevant fit (1-2 sentences)
+4. **Specific interest** in their deal focus/strategy (1-2 sentences)
+5. **Low-pressure ask** — a short call or coffee chat, not a hard pitch
+6. **Word count:** ~120-160 words
 
 ### Template Structure
 
 ```text
-Subject: [Role Title] at [Company]
+Subject: [Role/Team] at [Firm] — UT Austin Finance
 
 Hi [First Name],
 
-[Opening: Found posting + forward request]
+[Opening: how you found them — posting, alumni network, mutual contact]
 
-[Brief credentials: Gremlin CTO + relevant experience]
+[Brief credentials: Rothschild/Crestview/Melange/Point72 experience relevant to their team]
 
-[Specific interest: What excites you about their tech/mission]
+[Specific interest: what draws you to their deal focus or strategy]
 
-[Fractional pitch: Position as alternative or complement]
+[Low-pressure close: request for a brief call, offer flexibility on timing]
 
-[Close: Scheduling link]
-
-Matthew Fornaciari
+Best,
+Parth Pahuja
+(469) 988-9008
+linkedin.com/in/parthpahuja
 ```
 
 ## Gmail Integration
 
-After generating email:
+After generating the email:
 
-1. **Create draft** using `draft_email` tool
-2. **Apply labels:** `Craft` and `RYLLC`
+1. **Create draft** using the Gmail draft tool
+2. **Apply label:** `Job Search` (create it if it doesn't already exist)
 3. **Verify:**
    - Subject line in Title Case
-   - Scheduling link: <https://app.reclaim.ai/m/forni/chat>
-   - Signature: Matthew Fornaciari
+   - Signature: Parth Pahuja, with phone and LinkedIn
    - No sentence fragments
-   - ~150-170 word count
+   - ~120-160 word count for outreach emails
 
 ## Process Checklist
 
-When skill is invoked with job posting URL:
+When the skill is invoked with a job posting URL:
 
 - [ ] Fetch job posting details (title, description, requirements, application questions)
-- [ ] Assess role fit (mission, technical, level, work style)
-- [ ] If weak fit: Report assessment and recommend not applying
-- [ ] If medium/strong fit: Continue with application support
+- [ ] Assess role fit (function/industry, technical, firm/program, location)
+- [ ] If weak fit: report assessment and recommend not applying
+- [ ] If medium/strong fit: continue with application support
 - [ ] Draft cover letter tailored to the role
 - [ ] Draft responses to all application questions found
-- [ ] Search for hiring manager (LinkedIn → job posting → website → GitHub)
-- [ ] Generate follow-up email using template 07
-- [ ] Create Gmail draft with `Craft` and `RYLLC` labels
-- [ ] Report summary: fit assessment, cover letter, application responses, hiring manager found, email drafted
+- [ ] Search for a recruiter or deal-team contact (LinkedIn → firm careers page → UT/McCombs network → posting)
+- [ ] Generate a networking/follow-up email
+- [ ] Create Gmail draft with `Job Search` label
+- [ ] Report summary: fit assessment, cover letter, application responses, contact found, email drafted
 
 ## Output Format
 
 ```markdown
-# Job Application Analysis: [Company] - [Role]
+# Job Application Analysis: [Firm] - [Role]
 
 ## Fit Assessment
-- **Mission Alignment:** [score]/10 - [brief explanation]
-- **Technical Fit:** [score]/10 - [brief explanation]
-- **Role Level:** [score]/10 - [brief explanation]
-- **Work Style:** [score]/10 - [brief explanation]
+- **Function/Industry Alignment:** [score]/10 - [brief explanation]
+- **Technical/Analytical Fit:** [score]/10 - [brief explanation]
+- **Firm Prestige & Program Structure:** [score]/10 - [brief explanation]
+- **Location/Logistics:** [score]/10 - [brief explanation]
 - **Overall:** [average score]/10 - [Strong/Medium/Weak Fit]
 
 **Recommendation:** [Apply / Reconsider / Skip]
@@ -369,18 +362,18 @@ When skill is invoked with job posting URL:
 
 ---
 
-## Hiring Manager Research
+## Recruiter/Contact Research
 
 **Identified:** [Name], [Title]
 **LinkedIn:** [URL if found]
-**Email:** [If found, otherwise "Not found - will send to general hiring contact"]
+**Email:** [If found, otherwise "Not found - will apply through standard channel"]
 
 ---
 
-## Follow-Up Email
+## Networking Email
 
 **Status:** [Draft created in Gmail / Ready to send]
-**Labels:** Craft, RYLLC
+**Label:** Job Search
 **Subject:** [Subject line]
 
 [Email preview]
@@ -389,26 +382,8 @@ When skill is invoked with job posting URL:
 
 ## Next Steps
 
-1. [Copy cover letter to job application]
+1. [Copy cover letter to application portal]
 2. [Copy application question responses to job portal]
-3. [Review and send Gmail draft to hiring manager]
-4. [Track in vocation repo: companies/[company-name].md]
+3. [Review and send Gmail draft to contact]
+4. [Track firm/contact/status in your own recruiting tracker]
 ```
-
-## Resources
-
-**Email template:**
-
-- `~/Craft/vocation/templates/07-job-posting-cold-outreach.md`
-
-**Project guidelines:**
-
-- `~/Craft/vocation/CLAUDE.md`
-
-**Contact tracking:**
-
-- `~/Craft/vocation/network/contacts.md`
-
-**Company profiles:**
-
-- `~/Craft/vocation/companies/`
